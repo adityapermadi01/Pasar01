@@ -17,16 +17,16 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('mentor/') }}/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="{{ asset('mentor/') }}/assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="{{ asset('mentor/') }}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('mentor/') }}/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="{{ asset('mentor/') }}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="{{ asset('mentor/') }}/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="{{ asset('mentor/') }}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{ asset('mentor/assets/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('mentor/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('mentor/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('mentor/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('mentor/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('mentor/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+    <link href="{{ asset('mentor/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="{{ asset('mentor/') }}/assets/css/style.css" rel="stylesheet">
+    <link href="{{ asset('mentor/assets/css/style.css') }}" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Mentor - v4.7.0
@@ -44,7 +44,8 @@
 
             <h1 class="logo me-auto"><a href="/">Pemantauan Pasar</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto"><img src="{{ asset('mentor/') }}/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+<!--             <a href="index.html" class="logo me-auto"><img src="{{ asset('mentor/assets/img/logo.png') }}" alt="logo" class="img-fluid"></a> -->
+            <img src="{{ asset('mentor/assets/img/hero-bg.jpg }}" alt="logo" />
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
